@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Agarwal - Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eafdff;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #banner-image {
+            height: 200px;
+            border-radius: 12px;
+        }
+
+        .headline {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 8px 0;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        #about-me {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+                    rgba(0, 0, 0, 0.65)),
+                url("Images/iStock-1487972668-scaled.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+            color: #ffecec;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        #about-me p {
+            font-size: 18px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+
+        .img-box {
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .img-box img {
+            height: 170px;
+            border-radius: 10px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .img-desc {
+            color: #ffd28a;
+            font-size: 16px;
+        }
+
+        .project-img {
+            height: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .project-img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 30px 0;
+        }
+
+        footer a {
+            color: #66ccff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .contact p {
+            margin: 6px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Portfolio Website</h2>
+    </header>
+
+    <div class="container">
+
+        <div class="banner">
+            <img id="banner-image" src="Images/Kishan.png" alt="Kishan Agarwal">
+        </div>
+
+        <h3 class="headline">
+            Portfolio Page for Kishan Agarwal - 24BCT0208
+        </h3>
+
+        <nav>
+            <a href="#about-me">Go to About Me Section</a><br>
+            <a href="about.html">Go to Full About Page</a><br><br>
+
+            <a href="https://dog-image-generater-kishan.netlify.app" target="_blank">
+                Dog Image Fetcher (API Project)
+            </a>
+
+            <p><strong>Project 2:</strong> Click image to open</p>
+
+            <a href="https://random-color-generator-kishan.netlify.app/" target="_blank">
+                <img class="project-img" src="Images/Screenshot 2026-01-10 at 6.37.44PM.png"
+                    alt="Random Color Generator Project">
+            </a>
+
+            <br><br>
+            <a href="mailto:kishanagarwal1506@gmail.com">Mail Me</a>
+        </nav>
+
+        <div id="about-me">
+            <p class="section-title">About Me</p>
+
+            <p>
+                I am Kishan Agarwal, studying at VIT Vellore.
+                Currently learning Web Development and DSA.
+                I plan to study Machine Learning in the future.
+            </p>
+
+            <div class="img-box">
+                <img src="Images/Kishan.png" alt="Sense Hack">
+                <span class="img-desc">
+                    I was part of the Organizing Committee for the Sense Hack event.
+                </span>
+            </div>
+
+            <div class="img-box">
+                <img src="Images/Kishan2.jpeg" alt="Hackathon Speaker">
+                <span class="img-desc">
+                    I was a speaker at “Hack The Hackathon” during Gravitas’24.
+                </span>
+            </div>
+
+            <p class="section-title">Hobbies & Interests</p>
+
+            <div class="img-box">
+                <img src="Images/cricket-equipment-digital-art_23-2151761214.avif" alt="Cricket">
+                <span class="img-desc">I enjoy playing and watching cricket.</span>
+            </div>
+
+            <div class="img-box">
+                <img src="Images/book-pile-of-must-read-books-scaled1.jpg" alt="Books">
+                <span class="img-desc">I enjoy reading books.</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container contact">
+            <h2>Contact Me</h2>
+
+            <h3>Professional Contact</h3>
+
+            <p>Email:
+                <a href="mailto:kishanagarwal1506@gmail.com">
+                    kishanagarwal1506@gmail.com
+                </a>
+            </p>
+
+            <p>GitHub:
+                <a href="https://github.com/KISHAN1506" target="_blank">
+                    github.com/KISHAN1506
+                </a>
+            </p>
+
+            <p>LinkedIn:
+                <a href="https://linkedin.com/in/kishan-agarwal15" target="_blank">
+                    linkedin.com/in/kishan-agarwal15
+                </a>
+            </p>
+
+            <h3>Personal Contact</h3>
+            <p>Phone Number: 6355XXXXXX</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
